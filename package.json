@@ -1,0 +1,27 @@
+{
+  "name": "fastmerge",
+  "version": "1.0.0",
+  "author": "Tim Etler",
+  "description": "Really fast object merge optimized for speed",
+  "main": "dist/fastmerge.js",
+  "license": "MIT",
+  "homepage": "https://github.com/etler/fastmerge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etler/fastmerge.git"
+  },
+  "keywords": [
+    "fast",
+    "merge",
+    "object",
+    "extend",
+    "json"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
